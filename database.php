@@ -2,8 +2,8 @@
 // database_connect.php
 
 // 1) Your InfinityFree (or Free.NF) DB credentials
-$server   = "jcbdatabase2025.free.nf";
-$username = "if0_39127491_sampledb";
+$server   = "sql307.infinityfree.com";
+$username = "if0_39127491";
 $password = "Database2025";
 $database = "if0_39127491_sampledb";
 
