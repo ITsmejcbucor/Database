@@ -1,5 +1,5 @@
 <?php
-$host = "jcbdatabase2025.free.nf";
+$server = "jcbdatabase2025.free.nf";
 $username = "if0_39127491_sampledb";
 $password = "Database2025";
 $database = "if0_39127491_sampledb";
