@@ -1,8 +1,8 @@
 <?php
-$server = "localhost";
-$username = "root";
-$password = "";
-$database = "sampledb";
+$host = "jcbdatabase2025.free.nf";
+$username = "if0_39127491_sampledb";
+$password = "Database2025";
+$database = "if0_39127491_sampledb";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 
