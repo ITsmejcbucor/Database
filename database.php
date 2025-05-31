@@ -1,7 +1,7 @@
 <?php
 // database_connect.php
 
-// 1) Your InfinityFree (or Free.NF) DB credentials
+// 1) Your InfinityFree DB credentials
 $server   = "sql307.infinityfree.com";
 $username = "if0_39127491";
 $password = "Database2025";
@@ -12,10 +12,10 @@ $conn = mysqli_connect($server, $username, $password, $database);
 
 // 3) If connection fails, stop and print the error
 if (mysqli_connect_errno()) {
-    // “failed” followed by the actual MySQL error
     printf("Connection failed: %s\n", mysqli_connect_error());
     exit(1);
 }
 
-// 4) Connection succeeded: print a little green circle
-echo '<span style="display:inline-block; width:12px; height:12px; background-color:green; border-radius:50%;"></span>';
+// 4) Connection succeeded: no CSS output
+// You can uncomment the next line if you want a simple confirmation message:
+// echo "Connected successfully.";
